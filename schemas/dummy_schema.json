@@ -68,6 +68,15 @@
                 ],
                 "default": null,
                 "description": "Test description"
+              },
+              {
+                "name": "Second release First Commit",
+                "type": [
+                  "null",
+                  "double"
+                ],
+                "default": null,
+                "description": "Test description"
               }
             ]
           }
