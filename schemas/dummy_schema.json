@@ -31,6 +31,15 @@
       "description": "Test description"
     },
     {
+      "name": "Third release Second Commit Plain",
+      "type": [
+        "null",
+        "int"
+      ],
+      "default": null,
+      "description": "Test description"
+    },
+    {
       "name": "TestNested",
       "description": "Test description",
       "type": [
@@ -71,6 +80,15 @@
               },
               {
                 "name": "Second release First Commit",
+                "type": [
+                  "null",
+                  "double"
+                ],
+                "default": null,
+                "description": "Test description"
+              },
+              {
+                "name": "Third release First Commit Nested",
                 "type": [
                   "null",
                   "double"
