@@ -4,15 +4,6 @@
   "name": "delete_added_new_with_distance",
   "fields": [
     {
-      "name": "Test1",
-      "type": [
-        "null",
-        "long"
-      ],
-      "default": null,
-      "description": "Test description"
-    },
-    {
       "name": "Test2",
       "type": [
         "null",
@@ -73,6 +64,15 @@
           }
         }
       ]
+    },
+    {
+      "name": "Added Plain",
+      "type": [
+        "null",
+        "long"
+      ],
+      "default": null,
+      "description": "Added description"
     }
   ]
 }

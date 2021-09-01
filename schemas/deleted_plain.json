@@ -22,15 +22,6 @@
       "description": "Test description"
     },
     {
-      "name": "Test3",
-      "type": [
-        "null",
-        "int"
-      ],
-      "default": null,
-      "description": "Test description"
-    },
-    {
       "name": "TestNested",
       "description": "Test description",
       "type": [

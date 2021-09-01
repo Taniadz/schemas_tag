@@ -68,11 +68,29 @@
                 ],
                 "default": null,
                 "description": "Test description"
+              },
+              {
+                "name": "Added nested",
+                "type": [
+                  "null",
+                  "int"
+                ],
+                "default": null,
+                "description": "Test description"
               }
             ]
           }
         }
       ]
+    },
+    {
+      "name": "Added Plain",
+      "type": [
+        "null",
+        "int"
+      ],
+      "default": null,
+      "description": "Test description"
     }
   ]
 }

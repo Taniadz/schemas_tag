@@ -61,13 +61,13 @@
                 "description": "Test description"
               },
               {
-                "name": "Test2Nested",
+                "name": "NewField",
                 "type": [
                   "null",
-                  "double"
+                  "string"
                 ],
                 "default": null,
-                "description": "Test description"
+                "description": "New description"
               }
             ]
           }
