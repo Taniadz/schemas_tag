@@ -1,7 +1,7 @@
 {
   "namespace": "com.some.avro.test",
   "type": "record",
-  "name": "deleted_plain",
+  "name": "delete_added_new_with_distance_plain",
   "fields": [
     {
       "name": "Test1",
@@ -25,7 +25,7 @@
       "name": "Test3",
       "type": [
         "null",
-        "long"
+        "int"
       ],
       "default": null,
       "description": "Test description"

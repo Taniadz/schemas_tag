@@ -1,7 +1,7 @@
 {
   "namespace": "com.some.avro.test",
   "type": "record",
-  "name": "deleted_plain",
+  "name": "deleted_added_new_with_distance_nested_field",
   "fields": [
     {
       "name": "Test1",
@@ -25,7 +25,7 @@
       "name": "Test3",
       "type": [
         "null",
-        "long"
+        "int"
       ],
       "default": null,
       "description": "Test description"
@@ -64,10 +64,10 @@
                 "name": "Test2Nested",
                 "type": [
                   "null",
-                  "double"
+                  "string"
                 ],
                 "default": null,
-                "description": "Test description"
+                "description": "New description"
               }
             ]
           }
