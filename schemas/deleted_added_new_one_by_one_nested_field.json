@@ -1,8 +1,17 @@
 {
   "namespace": "com.some.avro.test",
   "type": "record",
-  "name": "delete_added_new_with_distance",
+  "name": "deleted_added_new_one_by_one_nested_field",
   "fields": [
+    {
+      "name": "Test1",
+      "type": [
+        "null",
+        "long"
+      ],
+      "default": null,
+      "description": "Test description"
+    },
     {
       "name": "Test2",
       "type": [
@@ -55,24 +64,15 @@
                 "name": "Test2Nested",
                 "type": [
                   "null",
-                  "double"
+                  "string"
                 ],
                 "default": null,
-                "description": "Test description"
+                "description": "New description"
               }
             ]
           }
         }
       ]
-    },
-    {
-      "name": "Added Plain",
-      "type": [
-        "null",
-        "long"
-      ],
-      "default": null,
-      "description": "Added description"
     }
   ]
 }

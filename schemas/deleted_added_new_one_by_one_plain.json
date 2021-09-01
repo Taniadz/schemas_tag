@@ -1,7 +1,7 @@
 {
   "namespace": "com.some.avro.test",
   "type": "record",
-  "name": "deleted_added_new_one_by_one",
+  "name": "deleted_added_new_one_by_one_plain",
   "fields": [
     {
       "name": "Test1",
@@ -61,7 +61,7 @@
                 "description": "Test description"
               },
               {
-                "name": "NewField",
+                "name": "Test2Nested",
                 "type": [
                   "null",
                   "string"
@@ -73,6 +73,15 @@
           }
         }
       ]
+    },
+    {
+      "name": "Test4",
+      "type": [
+        "null",
+        "int"
+      ],
+      "default": null,
+      "description": "Test description"
     }
   ]
 }

@@ -10,7 +10,7 @@
         "long"
       ],
       "default": null,
-      "description": "New description"
+      "description": "Test description"
     },
     {
       "name": "Test2",
