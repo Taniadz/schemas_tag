@@ -59,15 +59,6 @@
                 ],
                 "default": null,
                 "description": "Test description"
-              },
-              {
-                "name": "Test2Nested",
-                "type": [
-                  "null",
-                  "double"
-                ],
-                "default": null,
-                "description": "Test description"
               }
             ]
           }

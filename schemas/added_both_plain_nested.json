@@ -68,11 +68,29 @@
                 ],
                 "default": null,
                 "description": "Test description"
+              },
+              {
+                "name": "AddedNewNested",
+                "type": [
+                  "null",
+                  "double"
+                ],
+                "default": null,
+                "description": "Test description"
               }
             ]
           }
         }
       ]
+    },
+    {
+      "name": "AddedNewPlain",
+      "type": [
+        "null",
+        "double"
+      ],
+      "default": null,
+      "description": "Test description"
     }
   ]
 }
