@@ -75,13 +75,13 @@
       ]
     },
     {
-      "name": "Test4",
+      "name": "NewSomeField",
       "type": [
         "null",
-        "int"
+        "long"
       ],
       "default": null,
-      "description": "Test description"
+      "description": "New description"
     }
   ]
 }

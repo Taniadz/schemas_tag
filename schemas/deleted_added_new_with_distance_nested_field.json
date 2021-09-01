@@ -43,15 +43,6 @@
             "namespace": "com.some.avro.some",
             "fields": [
               {
-                "name": "IdNested",
-                "type": [
-                  "null",
-                  "long"
-                ],
-                "default": null,
-                "description": "Test description"
-              },
-              {
                 "name": "Test1Nested",
                 "type": [
                   "null",
@@ -62,6 +53,15 @@
               },
               {
                 "name": "Test2Nested",
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "default": null,
+                "description": "New description"
+              },
+              {
+                "name": "NewAddedNestedField",
                 "type": [
                   "null",
                   "string"
