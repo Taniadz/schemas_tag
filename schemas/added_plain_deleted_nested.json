@@ -1,0 +1,78 @@
+{
+  "namespace": "com.some.avro.test",
+  "type": "record",
+  "name": "added_plain_deleted_nested",
+  "fields": [
+    {
+      "name": "Test1",
+      "type": [
+        "null",
+        "long"
+      ],
+      "default": null,
+      "description": "Test description"
+    },
+    {
+      "name": "Test2",
+      "type": [
+        "null",
+        "long"
+      ],
+      "default": null,
+      "description": "Test description"
+    },
+    {
+      "name": "Test3",
+      "type": [
+        "null",
+        "int"
+      ],
+      "default": null,
+      "description": "Test description"
+    },
+    {
+      "name": "TestNested",
+      "description": "Test description",
+      "type": [
+        "null",
+        {
+          "type": "array",
+          "items": {
+            "type": "record",
+            "name": "TestNestedArray",
+            "namespace": "com.some.avro.some",
+            "fields": [
+              {
+                "name": "IdNested",
+                "type": [
+                  "null",
+                  "long"
+                ],
+                "default": null,
+                "description": "Test description"
+              },
+              {
+                "name": "Test1Nested",
+                "type": [
+                  "null",
+                  "double"
+                ],
+                "default": null,
+                "description": "Test description"
+              },
+              {
+                "name": "Test2Nested",
+                "type": [
+                  "null",
+                  "double"
+                ],
+                "default": null,
+                "description": "Test description"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

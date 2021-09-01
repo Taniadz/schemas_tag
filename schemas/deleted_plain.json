@@ -1,7 +1,7 @@
 {
   "namespace": "com.some.avro.test",
   "type": "record",
-  "name": "TestAvro",
+  "name": "deleted_plain",
   "fields": [
     {
       "name": "Test1",
@@ -31,15 +31,6 @@
       "description": "Test description"
     },
     {
-      "name": "Third release Second Commit Plain",
-      "type": [
-        "null",
-        "int"
-      ],
-      "default": null,
-      "description": "Test description"
-    },
-    {
       "name": "TestNested",
       "description": "Test description",
       "type": [
@@ -52,7 +43,7 @@
             "namespace": "com.some.avro.some",
             "fields": [
               {
-                "name": "Id",
+                "name": "IdNested",
                 "type": [
                   "null",
                   "long"
@@ -61,7 +52,7 @@
                 "description": "Test description"
               },
               {
-                "name": "Test1",
+                "name": "Test1Nested",
                 "type": [
                   "null",
                   "double"
@@ -70,25 +61,7 @@
                 "description": "Test description"
               },
               {
-                "name": "Test2",
-                "type": [
-                  "null",
-                  "double"
-                ],
-                "default": null,
-                "description": "Test description"
-              },
-              {
-                "name": "Second release First Commit",
-                "type": [
-                  "null",
-                  "double"
-                ],
-                "default": null,
-                "description": "Test description"
-              },
-              {
-                "name": "Third release First Commit Nested",
+                "name": "Test2Nested",
                 "type": [
                   "null",
                   "double"
